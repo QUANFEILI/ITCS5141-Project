@@ -19,6 +19,12 @@ The skeleton code are provided in [Filtering.cpp](Filtering.cpp). You should als
  1. [Setting up OpenCV on Centaurus](OpenCV_Centaurus.md)
  2. [SSH with X forwarding](SSH-XForwarding.md)
 
+## Implementation
+There are three versions for the implementation, one for each task. You need to submit your implementatio for each task and task 3 is the final submission and should include all the three implementation. The performance study should compare the performance of the three versions. 
+ 1. Task 1: Implement the sequential version of the filtering algorithm
+ 1. Task 2: Implement the parallelized GPU version of the filtering algorithm
+ 1. Task 3: Implement the parallelized CPU version of the filtering algorithm
+
 ## Submission
 **Your submission should be a single zipped file named LastNameFirstName.zip that includes ONLY the following: the implemented source file, Filtering.cpp and a PDF file for your report. Please remove all other files, including the executables, Excel sheet, etc.** 
 In the report, please describe:
