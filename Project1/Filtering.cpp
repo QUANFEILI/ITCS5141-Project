@@ -48,7 +48,7 @@ int main( int argc, char** argv )
     for(int y = 1; y < image.rows - 1; y++) {
         for(int x = 1; x < image.cols - 1; x++) {
 
-            Vec3b sum = Vec3b(0,0,0);
+            Vec3i sum = Vec3i(0,0,0);
 
             for(int a = -1; a <= 1; a++) {
                 for(int b = -1; b <= 1; b++) {
